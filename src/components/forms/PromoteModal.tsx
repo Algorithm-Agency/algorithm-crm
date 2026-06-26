@@ -179,7 +179,7 @@ export default function PromoteModal({ deal, newStage, contacts, companies, onCl
       }
     >
       <div className="bg-accent/10 border border-accent/20 rounded-lg px-3 py-2.5 text-xs text-accent mb-5">
-        You're moving this out of early stages. Let's create clean Contact and Company records — and fill in the deal value.
+        You&apos;re moving this out of early stages. Let&apos;s create clean Contact and Company records — and fill in the deal value.
       </div>
 
       {/* CONTACT */}

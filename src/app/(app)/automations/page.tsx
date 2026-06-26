@@ -27,7 +27,7 @@ export default async function AutomationsPage() {
           <div className="bg-slate-light border border-white/[0.06] rounded-2xl p-6">
             <h2 className="text-lg font-extrabold mb-1">Stalled deal alerts</h2>
             <p className="text-sm text-text-muted mb-5">
-              When a deal sits in a stage for too long, we'll email you (the deal owner) a reminder.
+              When a deal sits in a stage for too long, we&apos;ll email you (the deal owner) a reminder.
               Configure the threshold per stage below. Setting a stage to 0 days disables that alert.
             </p>
             <AlertRulesEditor initialRules={(rules as AlertRule[]) ?? []} />

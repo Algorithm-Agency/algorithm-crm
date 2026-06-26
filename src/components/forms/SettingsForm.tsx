@@ -48,7 +48,7 @@ export default function SettingsForm({ profile, email }: Props) {
           <div>
             <Label>Email</Label>
             <Input value={email} disabled className="opacity-60" />
-            <p className="text-xs text-text-muted mt-1">Email is set at sign-up and can't be changed here.</p>
+            <p className="text-xs text-text-muted mt-1">Email is set at sign-up and can&apos;t be changed here.</p>
           </div>
           <div>
             <Label>Default currency</Label>
